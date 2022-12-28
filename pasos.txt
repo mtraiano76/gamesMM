@@ -1,0 +1,7 @@
+npm init
+npm install express
+npx express-generator --view=hbs
+npm i nodemon (para que se actualice la pagina)
+npm i
+
+En package.json modificamos node por nodemon
