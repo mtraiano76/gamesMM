@@ -1,6 +1,8 @@
 ul.nav-menu{
-    display: flex;
-    flex-direction: row;
+
     height: 100px;
     margin: right 50px;
+}
+a.nav-enlace{
+    margin-right: 10px;
 }

@@ -19,10 +19,16 @@ img {
   box-sizing: border-box;
   border-radius: 20px;
   width: 200px;
+  margin-left: 30px;
 }
 
 ul {
   display: flex;
   flex-direction: row;
+
 }
 
+nav {
+  margin: 10px;
+
+}
