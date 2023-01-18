@@ -5,3 +5,6 @@ npm i nodemon (para que se actualice la pagina)
 npm i
 
 En package.json modificamos node por nodemon
+
+
+git push https://github.com/mtraiano76/gamesMM.git
