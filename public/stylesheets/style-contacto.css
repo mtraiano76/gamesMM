@@ -1,34 +1,60 @@
 /*Textos e Imagenes*/
 
 * {
-    font-family: 'Dangrek', cursive;
-    background-color: lightsteelblue;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style:none; /*sacamos las viñetas de la lista*/
-  }
-  body{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  
-  img {
-    box-sizing: border-box;
-    border-radius: 20px;
-    width: 200px;
-    margin-left: 30px;
-  }
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-  
-  }
-  
-  nav {
-    margin: 10px;
-  
-  }
+  font-family: 'Dangrek', cursive;
+  background-color: lightsteelblue;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  /*sacamos las viñetas de la lista*/
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+img {
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 200px;
+  margin-left: 30px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+
+}
+
+nav {
+  margin: 10px;
+  font-size: 30px;
+}
+
+ul.nav-menu {
+
+  height: 100px;
+  margin: right 50px;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+header a:hover {
+  background-color: #1d1d1d;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}

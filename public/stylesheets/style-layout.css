@@ -1,14 +1,14 @@
-
-*{
+* {
     font-family: 'Dangrek', cursive;
 }
 
 
-ul.nav-menu{
+ul.nav-menu {
 
     height: 100px;
     margin: right 50px;
 }
-a.nav-enlace{
+
+a.nav-enlace {
     margin-right: 10px;
 }
